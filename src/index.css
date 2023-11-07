@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Belanosima&family=Bungee+Shade&family=Creepster&family=Playfair+Display:wght@700&family=Poppins:wght@100;200;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
+@import url('https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css');
+
+* {
+    font-family:'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
+html {
+    min-height: 100%;
+    background-color: rgb(126, 88, 161);
+
+}
+#titulo {
+    color: rgb(227, 227, 233); 
+    text-align: center;
+  }
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+label {
+    font-weight: 400;
+    color: black;
+}
+
+.div-cotizador {
+    margin: auto;
+    max-width: 900px;
+    background-color: white;
+    padding: 10px;
+    border-color: whitesmoke;
+    box-shadow: 26px 28px 15px -8px rgba(0,0,0,0.15);
+    border-radius: 0.7rem;
+}
+
+div.historial {
+    cursor: pointer;
+    display: flex;
+    float: right;
+    padding: 6px;
+    border-radius: 25px;
+    width: 55px;
+}
+
+div.historial span {
+    text-align: center !important;
+    font-size: xx-large;
+}
+
+select, input {
+    min-width: 50% !important;
+    width: 70% !important;
+}
+
+.separador {
+    margin: 20px;
+}
+
+.importe {
+    color: rgb(215, 208, 223);
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.guardar {
+    margin-left: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.ocultar {
+    display: none;
+}
+
+button:hover {
+    color: whitesmoke !important;
+    background-color: blueviolet !important;
+}
+
+button:active {
+    background-color: black !important;
+
+}
+
+.text-rojo {
+    color: red !important;
+}
+
+.historial-link {
+    color: rgb(236, 236, 243);
+    
+  }
+  
+  .historial-link:hover {
+    color: rgb(145, 92, 194);
+  }
+  .home-link {
+    color: rgb(236, 236, 243);
+  }
+  
+  .home-link:hover {
+    color: rgb(145, 92, 194);
+  }
+  button {
+    background-color: rgb(145, 92, 194);
+    border: none;
+    color: rgb(9, 0, 0);
+    padding: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 5%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+  
+  button:hover {
+    color: rgb(145, 92, 194);
+  }
+  
+  
